@@ -1,0 +1,7 @@
+D:\c#\class_02\class_02\class_02\bin\Debug\class_02.exe.config
+D:\c#\class_02\class_02\class_02\bin\Debug\class_02.exe
+D:\c#\class_02\class_02\class_02\bin\Debug\class_02.pdb
+D:\c#\class_02\class_02\class_02\obj\Debug\class_02.csproj.AssemblyReference.cache
+D:\c#\class_02\class_02\class_02\obj\Debug\class_02.csproj.CoreCompileInputs.cache
+D:\c#\class_02\class_02\class_02\obj\Debug\class_02.exe
+D:\c#\class_02\class_02\class_02\obj\Debug\class_02.pdb
