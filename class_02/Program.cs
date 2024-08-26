@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
@@ -249,7 +250,134 @@ namespace class_02
             //    }
             //    Console.WriteLine();
             //}
+            //14.Write a C# program to convert Celsius degrees to Kelvin and Fahrenheit.
+            //Test Data:
+            //Enter the amount of celsius: 30
+            //Expected Output:
+            //Kelvin = 303
+            //Fahrenheit = 86
+
+            //int a;
+            //Console.Write("Enter the amount of celsius : ");
+            //a=int.Parse(Console.ReadLine());
+            //Console.WriteLine(a + 273);
+            //Console.WriteLine((a * 1.8) + 32);
+
+            //15.Write a C# program that removes a specified character from
+            //a non-empty string using the index of a character.
+            //Test Data:
+            //w3resource
+            //Sample Output:
+            //wresource
+            //w3resourc
+            //3resource
+
+            //string a;
+            //Console.Write("Enter the name : ");
+            //a= Console.ReadLine();
+
+            //Console.WriteLine(a.Remove(1, 1));
+            //Console.WriteLine(a.Remove(9, 1));
+            //Console.WriteLine(a.Remove(0, 1));
+
+            //            16.Write a C# program to create a new string from a given
+            //            string where the first and last characters change their positions.
+            //Test Data:
+            //w3resource
+            //Python
+            //x
+            //Sample Output:
+            //e3resourcw
+            //nythoP
+            //x
+
+            //string a;
+            //Console.Write("enter the string : ");
+            //a= Console.ReadLine();
+            //Console.WriteLine(a[a.Length - 1] + a.Substring(1, a.Length - 2) + a[0]);
+
+
+            //            17.Write a C# program to create a string from a given string (length 1 or more) with the first character added at the front and back.
+            //Sample Output:
+            //Input a string : The quick brown fox jumps over the lazy dog.
+            //TThe quick brown fox jumps over the lazy dog.T
+
+            //string a;
+            //Console.Write("enter the string : ");
+            //a= Console.ReadLine();
+            //Console.WriteLine(a[0] + a + a[0]);
+
+            //            18.Write a C# program to check a pair of integers and
+            //            return true if one is negative and one is positive.
+            //Sample Output:
+            //Input first integer:
+            //            -5
+            //Input second integer:
+            //            25
+            //Check if one is negative and one is positive:
+            //True
+
+            //int a,b;
+            //Console.Write("enter the first number : ");
+            //a=int.Parse(Console.ReadLine());
+            //Console.Write("enter the second number : ");
+            //b = int.Parse(Console.ReadLine());
+            //if ((a > 0 && b < 0) || (a<0 && b>0)) {
+            //    Console.WriteLine("Check if one is negative and one is positive");
+            //}
+
+            //17 agin 
+
+            //int num1, num2;
+            //Console.Write("enter the first number : ");
+            //num1 = int.Parse(Console.ReadLine());
+            //Console.Write("enter the second number : ");
+            //num2 = int.Parse(Console.ReadLine());
+            //Console.Write(ngPt(num1, num2));
+
+            //19.Write a C# program to compute the sum of two given integers.
+            //If two values are the same, return the triple of their sum.
+            int a, b;
+            Console.Write("enter the first number : ");
+            a=int.Parse(Console.ReadLine());
+            Console.Write("enter the second number : ");
+            b=int.Parse(Console.ReadLine());
+            Console.Write(reTr(a,b));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             Console.Read();
+
+
         }
+        //static bool ngPt(int x, int y) {
+        //    return ((x > 0 && y < 0) || (x < 0 && y > 0));
+        //}
+        static int reTr(int x, int y) {
+            int result;
+            if (x != y)
+            {
+                result= x + y;
+            }
+            else {
+                result = (x + y) * 3;
+            }
+            return result;
+        }
+
     }
 }
